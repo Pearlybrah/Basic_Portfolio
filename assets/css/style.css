@@ -1,16 +1,43 @@
-p {
-    color: red;
+
+
+h1 {
+   background-color: #4aaaa5;
+   color: white;
+   width: 200px;
+   height: 100px;
+   margin: 0px 0px 20px 0px;
+   font-size: 50px;
+   float: left;
+}
+
+h2 {
+    background-color: #4aaaa5;
+    color: white; 
+}
+
+p, nav {
+    color: #777777;
+    text-align: bottom;
+}
+
+.barTab {
+    float: right;
+    display: inline;
 }
 
 .style {
+    width: 960px;
     background: url("https://www.toptal.com/designers/subtlepatterns/patterns/tiny-squares.png");
 }
 
 #insideBox {
     background-color: white;
-    border: solid 0.005em grey;
-    width: 50%;
-    float: center; 
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px ridge grey;
+    width: 50%; 
+    float: center;
+    text-align: center;;
 }
 
 #family {
