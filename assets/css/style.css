@@ -1,0 +1,18 @@
+p {
+    color: red;
+}
+
+.style {
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/tiny-squares.png");
+}
+
+#insideBox {
+    background-color: white;
+    border: solid 0.005em grey;
+    width: 50%;
+    float: center; 
+}
+
+#family {
+    width: 100px;
+}
