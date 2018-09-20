@@ -5,10 +5,11 @@ h1 {
    color: white;
    width: 300px;
    height: 100px;
-   margin: auto;
-   font-size: 50px;
+   margin-bottom: auto;
+   font-size: 35px;
    float: left;
    text-align: center;
+   position: relative;
 }
 
 h2 {
@@ -16,6 +17,7 @@ h2 {
     position: relative;
     right: 225px;
     font-weight: bold;
+    font-size: 30px;
 }
 
 p {
@@ -30,7 +32,7 @@ p {
     float: right;
     position: relative;
     height: 100px;
-    top: 75px;
+    top: 50px;
     right: 100px;
     font-weight: bold;
 }
@@ -47,7 +49,6 @@ p {
     border: 1px ridge grey;
     width: 50%; 
     height: 300px;
-    float: center;
     text-align: center;;
     position: relative;
     top: 50px;
@@ -66,11 +67,12 @@ p {
 
 .personal {
     text-align: left;
+    padding-top: 20px;
 }
 
 .footer {
     position: relative;
     padding-top: 200px;
     text-align: center;
-    clear: top;
+    clear: both;
 }
