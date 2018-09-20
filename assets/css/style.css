@@ -14,13 +14,15 @@ h1 {
 h2 {
     color: #4aaaa5;
     position: relative;
-    right: 250px;
+    right: 225px;
     font-weight: bold;
 }
 
-p, nav {
+p {
     color: #777777;
-    text-align: bottom;
+    text-align: center;
+    font-style: italic;
+    position: relative;
 }
 
 .barTab {
@@ -52,7 +54,10 @@ p, nav {
 }
 
 #family {
-    width: 100px;
+    width: 40%;
+    position: relative;
+    float: left;
+    clear: right;
 }
 
 .message {
